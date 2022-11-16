@@ -1,0 +1,484 @@
+	Languages:
+	=========
+	Communication with humans hindi,english.....
+
+Programming Languages:
+=====================
+
+Communication with machines
+ 
+				Programming Languages
+				
+				POP            OOP 						OMG
+B,BCPL,C,Photon,cobol...		c++,python,java,.net....
+
+
+					Performance  : inheritance,polymorphisam
+					Security     :  Abstraction,Encapsulation
+
+
+
+class Welcome
+{
+byte weight=76;//1 byte  //global variable
+public static void main(String args[])
+{
+	System.out.println("welcome to java :");
+}
+}
+
+print("welcome to python"); 1993 day-1 
+
+							java8 2014 new features
+
+JAVA:
+======
+OOPL / OOPS
+
+		Why Java ?
+
+
+			java sun micro system/Oracle Corporation
+			
+				1995 james gosling Jdk Beta
+
+
+				19
+
+	setup  JDK BETA jdk
+
+java 
+				1)Platform Independent   WORA
+				
+				2)Garbage Collection  -->garbage collector 
+
+JDK-->JRE--->JVM
+		
+		
+			"welcome to java"
+		
+		
+		53 keywords-lower case
+		
+			Welcome.java				
+		
+		
+		WORA
+		
+		.net dependent
+		
+		
+		windows 10
+		
+		https://www.javatpoint.com/javafx-how-to-install-java
+		
+		
+		
+Identifiers:
+-----------	
+		class ,variable,method,interface..... name 
+		
+		
+		
+		
+		A-Z
+		a-z
+		0-9
+		_ $
+		
+		
+variables:
+---------
+
+	7656757576-sandeeptrainer
+
+
+	10,20
+	
+	datatype  varname=value;
+		int	 age=29;
+		
+
+53-10=43
+		PDT       NPDT
+
+8 
+
+	byte
+	short
+	int
+	long			-->numbers
+	
+	float			19.5
+	double
+	
+	char
+	boolean			true,false
+	
+		
+long age=29		8 bytes 7 bytes
+byte age=78		1 byte
+
+long contactno=7328475554
+
+
+   1024 kb - 1 mb
+
+Instance and Static Difference:
+================================	
+		
+		variables
+		
+	Syntax
+		 int empId=229; //instance ,non static           4 bytes 
+	static String countryName="India";//static 
+
+
+	Memory
+				JDK--->JRE--->JVM
+	
+		instance variables/method will get memory for every object creation or when object is created.
+		
+		static variables/method will get memory only once at the time class loading into jvm.
+		
+		
+		class -->collection of datamembers+member functions
+		
+			A
+		classname objname=new classname();
+			A a=new A();
+	
+	Access
+		static properties can be accessed by using classname
+		instance properties can be accessed by using objname
+	
+	
+	When to use
+		
+		if it is common data we can use static	countryname,orgname,schoolname.....
+		if it is unique data we can use instance ex:aadhar,pan,acnt,empid.....
+		
+		
+		
+		
+		Operators reference
+		
+		https://www.geeksforgeeks.org/operators-in-java/
+		
+		eclipse download and install
+		
+		https://www.eclipse.org/downloads/packages/release/2021-12/r   Apache 
+		
+		
+		
+Flow Control statements:
+========================		
+		
+		DJango
+		
+				what kind of apps we can develop?
+		
+		
+										JAVA
+					JSE       		 	  JEE (server)        				  JME(Android)
+		
+		corejava,awt,swings,applets    servlets,jsp,spring,mvc,jsf,webservices
+		
+				antivirus
+				media player		1)standalone/desktop applications
+				eclipse	
+				notepad++
+				
+		gmail,fb,insta,amazon..		2)web applications
+		 URL's
+		
+				Banking				3)Distributed applications
+				
+									4)mobile applications
+									
+									
+Eclipse
+
+Methods....	set of statements
+		
+		method signature+method body
+		
+//ctrl+space-->for suggestions
+//ctrl+/ --->for single line comments
+//ctrl+shift+/-->for multi line comments
+//ctrl+shift+\-->to remove multi line comments
+//ctrl+shift+f-->for formatting
+//ctrl+shift+O-->organize imports
+
+							camelcase
+		
+		accessmodifer return methodname(arguments)
+		{
+		//method body
+		
+		}
+		
+							int addOfTwo(int a,int b)
+							{
+							return a+b;
+							}
+		
+	package	-->folder
+	predefined     userdefined 
+	
+**	By default java.lang package is avilable for every java file
+	
+	
+	
+ 6000+   jdk8 API
+	
+	
+	
+	int a=22;
+	int b[]={90,23,90,767};//index 0,1,2,3
+	System.out.println(b[3]);
+	
+	public class Test {
+	public static void main(String[] args) {//"12" "13" "sandeep" "23.5" "true"
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		System.out.println(a+b);
+		System.out.println(args[2]);
+		float salary=Float.parseFloat(args[3]);
+		boolean result=Boolean.parseBoolean(args[4]);
+		System.out.println(salary+"  "+result);
+		
+	}
+}
+	
+
+OOP's:
+======
+		4 oops features
+		
+		
+					Performance  : inheritance,polymorphisam
+					Security     :  Abstraction,Encapsulation
+
+inheritance:	extends,implements
+============	"Code Reusability":performance
+	
+		class Welcome
+		{
+		
+		//20 methods,variables..
+		
+		
+		}
+
+		class Hello extends Welcome   
+		{
+		
+		//30 methods
+		
+		
+		}
+
+Methods
+		
+		static ,instance
+		
+		
+	implemented method /concrete method
+	
+	
+	public int addOfTwo(int a,int b) //signature
+	{
+	return a+b;//body /implementation
+	}
+	
+	un-implemented method/abstract method
+
+	public abstract int addOfTwo(int a,int b); // security
+
+
+Abstraction:abstract class ,interface 
+
+	
+
+abstract class Test1
+{
+
+
+	public abstract int addOfTwo(int a,int b);
+
+}
+
+
+class :collection of only concrete methods 
+
+abstract class :collection of both concrete and abstract methods 0-100
+
+interface :collection of only abstract methods  100% 
+
+
+
+Multiple Inheritance :
+====================
+
+			interface	parent1      interface   parent2
+				m1();				m1();
+				
+				
+				
+				
+				class	child1 implements parent1 ,parent2
+				{
+				
+				Child1 child=new Child();
+				child.m1();
+				
+				m1()
+				{
+				///////
+				}
+				}
+
+java doesnt support MI in java @ class level
+java  supports MI in java @ interface level
+
+
+Polymorphisam:
+==============
+
+many  forms
+
+		method overloading
+		method name is same signature is different 
+								no of parmas
+								order of params
+								type of params
+
+public class MethodOverloading {
+	public void add(int a, int b) {
+		System.out.println("add of two int's :" + (a + b));
+	}
+
+	public void add(int a, int b, int c) {
+		System.out.println("add of three int's :" + (a + b + c));
+	}
+
+	public void add(float a, float b, float c) {
+		System.out.println("add of three float's :" + (a + b + c));
+	}
+
+	public void add(int a, float b) {
+		System.out.println("add of int ,float :" + (a + b));
+	}
+
+	public void add(float a, int b) {
+		System.out.println("add of float ,int :" + (a + b));
+	}
+
+	public static void main(String[] args) {
+		MethodOverloading obj=new MethodOverloading();
+		obj.add(12, 13);
+		obj.add(12.5f, 13);
+		obj.add(12, 13.5f);
+		obj.add(12,13, 14);
+		obj.add(12.4f,23.5f,89.2f);
+		obj.add('a','b');//type promotion 
+	}
+
+}
+
+
+
+
+public class MethodOverloading {
+	public void add(double a, double b) {
+		System.out.println("add of two int's :" + (a + b));
+	}
+	public static void main(String[] args) {
+		MethodOverloading obj=new MethodOverloading();
+		obj.add(12, 13);
+		obj.add(12.5f, 13);
+		obj.add(12, 13.5f);
+		obj.add('a','b');//type promotion 
+	}
+
+}
+
+		
+Method Overriding:
+==================		
+
+	method name is same but body is different
+	
+	class Parent
+	{
+	//99+1
+	int age=29; 
+	public void displayAge()
+	{
+	age=++age;
+	System.outprintln(age);
+	}
+	}
+	
+	class Child  extends Parent 
+	{
+	@Override
+	public void displayAge()
+	{
+	age=--age;
+	System.outprintln(age);
+	}
+	
+	
+	}
+	
+	
+	
+	
+Constructor:
+============	
+	
+		special member function used for object creation
+	
+	
+	
+				Welcome
+				
+	Welcome objname=new Welcome();			
+	
+	classname objname=new constructor();
+	
+	
+public class Exercise1 {
+
+	public void message() {
+		System.out.println("am from class method");
+	}
+	public Exercise1(String name) {
+		System.out.println("am from param constructor :"+name);
+	}
+	public Exercise1() {
+		System.out.println("am from default constructor");
+	}
+
+	public static void main(String[] args) {
+		Exercise1 obj = new Exercise1();// jvm
+		obj.message();
+		Exercise1 obj1 = new Exercise1();
+		
+	}
+
+}
+//this is a keyword which is used to represent current class properties (variable,method,constructor,object)
+//super is a keyword which is used to represent parent class properties 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
