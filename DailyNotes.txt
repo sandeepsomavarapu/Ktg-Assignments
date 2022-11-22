@@ -475,6 +475,114 @@ public class Exercise1 {
 
 	
 	
+	public private protected default
+	
+	
+	
+	private  void m1()
+	{
+	
+	
+	}
+	
+	Encapsulation:
+	================
+	
+	wrapping up of datamembers and member functions  
+					variables			methods
+	
+	
+	
+	class Welcome
+	{
+	//variables		must be private 
+	
+	//methods     public   setter and getter 
+	
+	
+	}
+	
+String , StringBuffer , StringBuilder		java.lang
+=====================================	
+	
+	
+	By default java.lang package is avilable for every java file
+	By default java.lang.Object class is parent for every java class
+	
+		11 methods
+	
+	
+	main(String args[]) "true/false/123/12.4"
+	Wrapper classes
+	
+	
+	group of characters
+	
+	String,		SBuffer,SBuilder
+		
+	imutable			mutable
+	
+	
+	String name ="ktg";//literal
+	
+	String orgname=new String("capgemini");//new
+
+Exception Handling:
+===================
+	
+	1)User friendly error messages    system defined error messages 
+	
+	2)normal termination				abnormal termination
+	
+	
+		try
+		catch
+		throw 
+		throws
+		finally
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
