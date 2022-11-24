@@ -1,25 +1,24 @@
+import java.io.Serializable;
 
-public class Employee {//security
-
+public class Employee implements Serializable {
 	private int empId;
 	private String empName;
 	private int empSal;
 	private String empAdd;
-
+	
 	@Override
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + ", empAdd=" + empAdd + "]";
 	}
-	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
 	public Employee(int empId, String empName, int empSal, String empAdd) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
 		this.empSal = empSal;
 		this.empAdd = empAdd;
-	}
-	public Employee() {
-	
 	}
 	public int getEmpId() {
 		return empId;
@@ -45,6 +44,5 @@ public class Employee {//security
 	public void setEmpAdd(String empAdd) {
 		this.empAdd = empAdd;
 	}
-	
-	
+
 }
