@@ -542,16 +542,18 @@ Exception Handling:
 		finally
 	
 	
+File IO stream	
+	
+				java--->write ,read,update...
+	
+	java.io
+	
+	File f=new File()
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
+	FileWriter
+	BufferedWriter
+	PrintWriter
 	
 	
 	
