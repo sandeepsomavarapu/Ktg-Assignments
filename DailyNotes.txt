@@ -552,17 +552,64 @@ File IO stream
 	
 	
 	FileWriter
-	BufferedWriter
+	BufferedWriter  123,true
 	PrintWriter
 	
 	
+	Serialization and Deserialization
+	
+Multi Threading :
+=================
+	
+	Multi Tasking
+	
+		Process based multi tasking 
+				executing several tasks simultaniously where each task is sepearate independent process
+			Ex:	running eclipse,teams
+			
+		Thread based multi tasking
+				executing several tasks simultaniously where each task is related to same process
+			Ex: Teams,eclipse
+		Process is collection of threads
+		thread is a smallest unit of process
+				
+	Thread
+	
+		class Welcome
+		{
+		
+		//2 we are open the file		THREAD-1
+		//3 read file 
+		//
+		
+		
+		
+		}
+	
+	HOW TO CREATE A THREAD 
+	
+	2 WAYS
+	
+	1)EXTENDS THREAD CLASS    				run
+	2)IMPLEMENTS RUNNABLE INTERFACE 		run
+	
+	
+	RUNNABLE	FI -->SAM   INTERFACE,FUNCTIONAL INTERFACE,MARKER INTERFACE
+		|
+		|
+	 THREAD
 	
 	
 	
 	
 	
+	Thread class methods
 	
+	thread life cycle 
 	
+	synchronization
+	
+	inter thread communication
 	
 	
 	
