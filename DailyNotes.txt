@@ -599,36 +599,57 @@ Multi Threading :
 		|
 	 THREAD
 	
+	fixed constants
 	
+	MIN_PRIORITY	1
+	MAX_PRIORITY	10
+	NORM_PRIORITY	5
 	
-	
+	1-10
 	
 	Thread class methods
+		start,run,currentThread,setPriority,getPriority,setName,getName,sleep,join
 	
 	thread life cycle 
 	
-	synchronization
 	
-	inter thread communication
-	
-	
-	
-	
+					  WAITING
+	5 PHASES 			 |
+						 |
+	NEW ->RUNNABLE --->RUNNING---->DEAD
 	
 	
 	
+	synchronization		-->synchronized
+	
+	inter thread communication	--->wait,notify,notifyAll
+	
+	
+	synchronized void m1(){
+	
+	
+	}
+	
+	
+	Inter Thread Communication:
+	==========================
+	
+			Object -->wait,notify,notifyAll
 	
 	
 	
+		1-100
+		
+		thread-1 even numbers	2,4,6,8,10....wait
+		thread -2 odd numbers	1,3,5,7,9......continue
+	
+			wait()
+			notify()
+			notifyAll()
+			
 	
 	
-	
-	
-	
-	
-	
-	
-	
+	1,2,3,4,5.....100
 	
 	
 	
