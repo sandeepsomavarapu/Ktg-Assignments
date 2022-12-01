@@ -1,6 +1,7 @@
 package collections;
 
-import java.util.HashSet;
+import java.util.Iterator;
+import java.util.TreeSet;
 
 //collections can store both homogeneous/haterogeneous data	
 //collections are not fixed in size /growable in nature
@@ -11,7 +12,7 @@ import java.util.HashSet;
 //java.util
 public class SetEx {
 	public static void main(String[] args) {
-		HashSet<String> names = new HashSet<String>();// 16
+		TreeSet<String> names = new TreeSet<String>();// 16
 		names.add("sandeep");
 		names.add("nikhila");
 		names.add("afreen");
@@ -19,5 +20,11 @@ public class SetEx {
 		names.add("laxmi");
 		names.add("afreen");
 		System.out.println(names);
+
+		Iterator<String> itr = names.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
 	}
 }
