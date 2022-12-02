@@ -652,6 +652,91 @@ Multi Threading :
 	1,2,3,4,5.....100
 	
 	
+Collections:
+============	
+			
+			int empId=1234;
+			empId=234;
+			
+	int empids[]={1,43,53,44,64,12,76};
+	
+	String names[]=new String[5];
+	names[5]="mahesh";//AIOE
+	id,name,salary,address,.....
+	
+	
+arrays can store only homogeneous data	
+arrays are fixed in size 
+no utility methods
+	
+	
+	
+	
+	collections can store both homogeneous/haterogeneous data	
+	collections are not fixed in size /growable in nature
+	lots of  utility methods	
+	
+	
+			Collections Framework
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
