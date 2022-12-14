@@ -679,19 +679,86 @@ no utility methods
 	
 			Collections Framework
 			
+	Java 8:
+============	
 			
 			
+Database:
+=========container 
 			
+		organised 	
+	oracle,mysql,db2,postgres....RDBMS			tables-->rows & columns
 			
+			employee
+		SQL-->	
+	
+DDL-->create,alter,drop,truncate,rename
+
+DML-->insert,update,delete
+
+DRL-->select
+
+DCL-->grant,revoke
+
+TCL	-->commit,rollback
 			
-			
-			
-			
-			
-			
-			
-			
-			
+		create database ktg;
+use ktg;
+
+create table employees(empid int,ename varchar(10),esal int);
+describe employees;
+alter table employees add eadd varchar(10);
+alter table employees drop column esal;
+drop table employees;
+truncate table employees;
+alter table employees rename to emps;
+alter table emps change empid empno int;
+insert into emps values(123,'suresh',23000);
+insert into emps values(124,'naresh',53800);
+insert into emps values(125,'rajesh',43800);
+insert into emps(empno,ename) values(127,'sandeep');
+select * from emps;
+select ename,esal from emps;
+update emps set esal=50000 where ename='rajesh';
+delete from emps where ename='rajesh';	
+
+constraints:
+=============
+
+
+
+
+
+JDBC:JAVA DATABASE CONNECTIVITY-->api sun micro system
+
+DATABASE			Java
+
+jar 
+
+mysql				
+
+1)load the driver class
+2)create the connection
+3)create the statement
+4)execute query
+5)close the connection
+
+			JDBC
+
+Java 		<--->     Database 
+
+
+
+
+
+
+
+
+
+
+
+
+JPA			
 			
 			
 			
