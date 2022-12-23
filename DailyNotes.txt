@@ -751,64 +751,143 @@ Java 		<--->     Database
 
 
 
+We need learn querys(DB dependent)
 
 
 
 
 
 
+JPA		--->sun micro system	 -->Specification
+	no querys (DB Independent)		
+			
+interface		
+		
+			ORM-->Object relational mapping
+			
+			hibernate,toplink,eclipse link,ibatis.....
+			
+			select * from products where pid=123
+			find(Product.class,123);
+			select * from products;
+		
+class-->table
+variable-->columns
+object--> ROW
 
-JPA			
+Entity			persist,merge,remove,find-- 1 record
+		products
+
+configuration
+META-INF --> persistence.xml	
+
+		db properties	
 			
+		hibernate properties		createQuery("JPQL")
 			
+	JPQL-->java persistence query language--->db independent querys
+	
+		Relationships(Foreign key)
+	
+			@OneToOne
+			@OneToMany
+			@ManyToOne
+			@ManyToMany
+	
+onetrainer --->many trainees
+
+	
+Spring :
+=========
+Framework:hibernate
+
+Frameworks
+			invasive
 			
+			non-invasive 
+
+	spring is used to create non-invasive,light weight,loosley coupled applications
+	
+	
+	non-invasive,light weight,losley coupled
+		invasive,heavy weight,tightly coupled
+	
+	
+	
+	servlet -->web applications-->heavy weight component 
+	
+	1)implements Servlet interface  5 
+	2)extends GenericServlet 5 
+	3)extends HttpServlet    11
+	
+	CLASS LOGIN  EXTENDS HTTPSERVLET
+		{
+		//11
+		
+		
+		}
+	100*11=1100	
+		
+		HIBERNATE .....NON-INVASIVE
+		SPRING WILL NEVER FORCE TO THE PROGRAMMER TO IMPLEMENT PREDEFINED API
+		
+		
+		EJB-->HEAVYWIGHT 
+		
+		INTERFACE21-->ROD JOHNSON---->SPRING 6.X-->2003->SPRING
+		
+		SPRING 5.X-->LIGHT WEIGHT
+		
+		
+		
+	loosley coupled,TIGHTLY COUPLED	
+	
+	
+	
+	CLASS A
+	{
+	 VOID M1()
+	 {
+	 
+	 
+	 }
+	
+	}
+	
+	CLASS B
+	{
+	VOID M2()
+	{
+	A a=new A();
+	a.m1();
+	
+	}
+	
+	
+	}
+	
+	dependency injection-->spring container -->ApplicationContext,BeanFactory
+	
+		entire object life cycle will be done container 
+		1.creation of object
+		2.wiring the object
+		3.configuring 
+		4.destroy 
+	
+		Object =getBean("emp/student/a/b/....")
+	
+	
+		configuration
+		
+			1)XML
+			2)Annotation @Component/@Service/@Repository /@Configuration/@ComponentScan/@Autowired
+		spring has given annotations like / \	for user defined classes but not for predefined classes
+										   |	
 			
-			
-			
-			
-			
-			
-			
+			3)java config
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		@Bean
 	
 	
 	
