@@ -806,7 +806,7 @@ Frameworks
 			
 			non-invasive 
 
-	spring is used to create non-invasive,light weight,loosley coupled applications
+	spring is non-invasive framework which is  used to create light weight,loosley coupled applications
 	
 	
 	non-invasive,light weight,losley coupled
@@ -817,8 +817,9 @@ Frameworks
 	servlet -->web applications-->heavy weight component 
 	
 	1)implements Servlet interface  5 
-	2)extends GenericServlet 5 
-	3)extends HttpServlet    11
+	2)extends GenericServlet 5 									servlet-api.jar
+	3)extends HttpServlet    11   		javax.servlet
+										javax.servlet.http      servers:tomcat,weblogic,glassfish,jboss,websphere
 	
 	CLASS LOGIN  EXTENDS HTTPSERVLET
 		{
@@ -882,12 +883,156 @@ Frameworks
 			1)XML
 			2)Annotation @Component/@Service/@Repository /@Configuration/@ComponentScan/@Autowired
 		spring has given annotations like / \	for user defined classes but not for predefined classes
-										   |	
-			
-			3)java config
+										   |			
+			3)java config @Bean
 	
 	
 		@Bean
+	
+	JPAhibernate+Spring 
+	
+	java 
+	standalone/desktop,web ,mobile,distributed   main()--->standalone/desktop
+												servlets
+												
+												
+						class Login extends/implements							
+												
+	spring mvc : URLS
+	
+	
+	MVC-->model view controller -->design pattern
+	
+	     data   html  request/response
+	
+spring mvc :front controller -->DispatcherServlet
+			logincontroller,registrationcontroller,....
+	
+	servlet+jsp
+	
+	CONTROLLER 
+	
+	spring core ,spring jpa ,spring mvc  20+
+	
+	spring boot:
+	
+		1)Auto configuration
+			SPRING BOOT HAS ALREADY CONFIGURED MOST OF THE COMMONLY USED CLASSES 
+	
+		2)EMBEDED SERVER -->INBUILT
+	
+	
+		3)STARTERS  POM.XML
+		
+		4)ACTUATORS   urls insite
+	
+	
+	STS-->SPRING TOOL SUITE
+	
+	
+	ProductManagementJpaHIbernate --->internal server
+	
+	
+	
+	Webservices:
+	============
+	
+	technology using we can share information between two interoperable applications
+	
+	ATM-->x bank atm card -->x,y,z
+	
+	
+			x atm card--->y atm machine -->X bank application
+	
+	
+	SpringBootDataJpa
+	
+	
+	
+	
+			log4j jars
+	
+1)	Logger 
+	info
+	warn
+	debug
+	fatal
+	error
+	
+2)appender
+
+	console
+	file
+	db
+	
+3)layout	
+	
+	html
+	xml
+	js
+	
+	
+	HTML:-
+	=======  Hyper text mark up lang
+	
+	website --->web pages 
+	
+					static 				login
+					
+					dynamic web page 	keep on changing 
+	
+	
+	
+	static  -->html5 elements 
+	
+	
+	engine ---->v8	 
+	
+		DOM Tree  display
+	
+	
+	HTML-->elements
+	
+	
+			form tags
+	
+	<form>
+	
+	<input type="text" name="ename">
+	<input type="password" name="pwd">
+	<input type="date" name="ename">
+	<input type="radio" name="ename">
+	
+	
+CSS:Cascading style sheet
+
+	styles 
+	
+	
+	3 ways
+	
+	1)inline css			style
+	2)internal css			<head><style>selector{propname:propvalue;propname:propvalue}</style></head>
+	3)external css				external.css <link rel="stylesheet" href="cssfilename.css"/>
+	
+	
+	
+	selector{propname:propvalue;propname:propvalue}
+	
+			1)element selector
+			2)group selector
+			3)all selector
+			4)id selector
+			5)class selector
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
