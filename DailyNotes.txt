@@ -1026,13 +1026,120 @@ CSS:Cascading style sheet
 			5)class selector
 	
 	
+Javascript:
+===========
+	<script>
 	
 	
 	
+	</script>
 	
 	
+	extrenal.js
 	
 	
+	<script src="external.js"/>
 	
 	
+																		var a=89;
+																			a="suresh"
+	TS=JS+DT																		a=true
+																			a=23.56;
+																			
 	
+	variables
+	
+	dt varname=value;//static typed programming lang
+	
+	var age=30;//dynamic typed programming lang
+	
+	
+	function add(var a ,var b)
+	{
+	 
+	return ....
+	}
+	add(12,23)
+	add("sandeep","suresh")
+Bootstrap:
+==========	
+	HTML,CSS,JS framework
+	
+	
+	twitter 
+	
+	RWD
+	
+	Jquery
+	
+	
+Angular:
+==========
+
+ collection of building blocks
+
+component --->html+ts+css+spec.ts(testing)
+
+
+
+
+//routing,databinding,component communication,forms,pipes,auth guards,directives
+
+
+ng new demoapp
+ng serve -o
+ng serve -o --port 1234
+ng generate service servicename
+ng generate component componentname
+ng generate pipe pipename
+ng generate module modulename 
+
+
+
+directives 
+	*ngFor,*ngIf,*ngSwitch
+
+
+
+
+spring boot rest  ---> postman JSON....
+
+					urllib3	HttpClient axio
+spring boot rest  ---> python/angular/react.....
+
+
+
+
+HttpClient-->predefined service class in angular -->get,post,put,delete
+
+
+
+Inputs:
+========
+https://www.javainuse.com/spring/springboot-microservice-elk   :ELK
+
+https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+
+
+https://www.javainuse.com/spring/sprboot_sec    spring security
+
+
+https://www.javatpoint.com/spring-boot-aop
+
+						aop
+
+withdraw
+
+
+ministatement						authentication
+
+
+balanceEnq
+
+
+deposit
+
+
+10
+
+
